@@ -1,5 +1,5 @@
 module.exports = {
-  darkMode: 'class', // or 'media'
+  content: ["./src/**/*.{html,ts,vue}"],
   theme: {},
   variants: {},
   plugins: [],

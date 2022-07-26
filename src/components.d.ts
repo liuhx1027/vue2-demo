@@ -7,6 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AreaChat: typeof import('./components/AreaChat.vue')['default']
     ButtonPrimary: typeof import('./components/shared/ButtonPrimary.vue')['default']
     ButtonSecondary: typeof import('./components/shared/ButtonSecondary.vue')['default']
     Feature: typeof import('./components/Feature.vue')['default']
@@ -14,12 +15,15 @@ declare module '@vue/runtime-core' {
     Heading1: typeof import('./components/shared/Heading1.vue')['default']
     Heading2: typeof import('./components/shared/Heading2.vue')['default']
     Hero: typeof import('./components/Hero.vue')['default']
+    Label: typeof import('~icons/la/bel')['default']
+    LineChat: typeof import('./components/LineChat.vue')['default']
     MdiAlien: typeof import('~icons/mdi/alien')['default']
     MdiArrowRight: typeof import('~icons/mdi/arrow-right')['default']
     MdiGithub: typeof import('~icons/mdi/github')['default']
     MdiMoonWaningCrescent: typeof import('~icons/mdi/moon-waning-crescent')['default']
     MdiWhiteBalanceSunny: typeof import('~icons/mdi/white-balance-sunny')['default']
     Navbar: typeof import('./components/Navbar.vue')['default']
+    PlotChat: typeof import('./components/PlotChat.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
